@@ -1,0 +1,26 @@
+{
+  "name": "BusTimingBot",
+  "version": "1.0.0",
+  "description": "A bot which retrieves bus timings in Singapore. Built using the Microsoft Bot Framework.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShawnTjai/BusTimingBot.git"
+  },
+  "author": "Shawn Tjai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShawnTjai/BusTimingBot/issues"
+  },
+  "homepage": "https://github.com/ShawnTjai/BusTimingBot",
+  "dependencies": {
+    "botbuilder": "^3.5.3",
+    "mstranslator": "^2.1.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "restify": "^4.3.0"
+  }
+}

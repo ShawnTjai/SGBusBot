@@ -25,7 +25,6 @@ This will install the dependencies required for the bot to run.
 - npm install --save restify
 - npm install --save botbuilder
 - npm install --save request
-- npm install --save request-promise
 - npm install --save mstranslator
 
 ###Publishing your Bot & Configuring Microsoft Bot Framework

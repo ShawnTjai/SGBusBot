@@ -83,7 +83,7 @@ For the endpoint URL, look for the variable "url" and paste the LUIS Endpoint in
 ###Completed Everything Above?
 1. Open the Node.js command prmpt
 2. Navigate to the bot folder
-3. Run the command "node app.js", you should see "restify listening to http://[::]:3978
+3. Run the command "node app.js", you should see "restify listening to http://[::]:3978"
 4. You can now connect using the emulator you downloaded. 
  * Enter the URL as "http://localhost:3978/api/messages" together with your App Id & PW created earlier
  * To connect to the live bot, you may use the website URL like "https://YOUR_WEBSITE_URL/api/messages"

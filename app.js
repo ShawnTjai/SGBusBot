@@ -267,7 +267,7 @@ bot.dialog('/nextBus', function (session, args){
         var traverseDone = false;
         var endNow = false;
 
-        var rand = Math.floor(Math.random() * 3);
+        var rand = Math.floor(Math.random() * (searchingReplies.length-1));
 
         if(busStop != 0){
             console.log("No bus stop id");

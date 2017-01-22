@@ -1,7 +1,6 @@
 // References
 var restify = require('restify');
 var builder = require('botbuilder');
-var requestPromise = require('request-promise');
 var request = require('request');
 var translator = require('mstranslator');
 

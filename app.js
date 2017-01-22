@@ -491,7 +491,7 @@ bot.dialog('/nextBus', function (session, args){
                                     });
                                 } else {
                                     testCount++;
-                                    if(y.BusStopCode == "LEIS1" && !traverseDone){
+                                    if(y.BusStopCode.indexOf("A") !== -1 && !traverseDone){
                                         traverseDone = true;
                                         if(cards.length != 0){
                                             var reply = new builder.Message(session)
